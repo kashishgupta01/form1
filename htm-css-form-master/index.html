@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Forms</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Bree+Serif|Lobster|Righteous" rel="stylesheet">
+    <style>
+        h3{
+            color: midnightblue;
+            text-align: center;
+            font-family: 'Righteous', cursive;
+            font-size: 40px;
+        }
+        body{
+            font-size: 30px;
+            font-family: 'Arvo', serif;
+            background: url("background2.jpg");
+        }
+        form{
+            font-size: 25px;
+            align-content: center;
+        }
+        input{
+            font-size: 15px;
+        }
+        fieldset{
+            border-width: medium;
+            border-color: black;
+            padding-top: 15px;
+            padding-bottom 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-left: 400px;
+            margin-right: 400px;
+            border-radius: 20px;
+        }
+        td{
+            margin-left:20px;
+            margin-right: 20px;
+            padding-right: 20px;
+            padding-left: 20px;
+            padding-top:3px;
+            padding-bottom:3px;
+        }
+        .x1{
+            padding-left:150px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <center>
+    <form>
+        <fieldset>
+        <legend><h3>INTRO FORM</h3></legend>
+        
+        <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" value="Kashish"></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth</td> 
+            <td><input type="text" name="dob" value="18 Feb 1999"></td>
+        </tr>
+        <tr>
+            <td>Place of Origin</td> 
+            <td><input type="text" name="place" value="Delhi"></td>
+        </tr>
+        <tr><td>Interests</td></tr>
+        <tr><td></td></tr>
+        <tr>
+            <td class="x1" colspan=2><input type="checkbox" name="c1" value="Reading">Reading</td>
+        </tr>
+        <tr>
+            <td class="x1" colspan=2><input type="checkbox" name="c2" value="Writing">Writing</td>
+        </tr>
+        <tr>
+            <td class="x1" colspan=2><input type="checkbox" name="c3" value="Sketching">Sketching</td>
+        </tr>
+        <tr>    
+            <td class="x1" colspan=2><input type="checkbox" name="c4" value="Movies">Movies</td>
+        </tr> 
+        <tr>
+            <td class="x1" colspan=2><input type="checkbox" name="c5" value="Series">Series</td>
+        </tr>
+        <tr>
+        <td colspan=2><br><center><input type="submit" value="Submit"></center></td>
+        </tr>
+        <tr><td></td></tr>
+        </table>
+        </fieldset>
+    </form>
+    </center>
+</body>

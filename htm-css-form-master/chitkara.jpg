@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title> Form </title>
+</head>
+
+<body>
+    <h1>HTML Form</h1>
+    <form>
+        Name: <input type="text" name="n" value="Bhavika"> <br>
+        Date Of Birth: <input type="text" name="dob" value="06 Nov, 1997"> <br>
+        Native Place: <input type="text" name="place" value="Panchkula"> <br>
+        Interests: <br>
+        <input type="checkbox" name="i1" value="reading"><br>
+        <input type="checkbox" name="i2" value="writing"><br>
+        <input type="checkbox" name="i1" value="sketching"><br>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
